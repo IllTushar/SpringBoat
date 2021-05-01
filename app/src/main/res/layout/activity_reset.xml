@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reset">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="730dp"
+            android:background="@drawable/s1"/>
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@drawable/login"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp">
+
+        </ImageView>
+    <EditText
+        android:id="@+id/lastemail"
+        android:layout_width="match_parent"
+        android:fontFamily="cursive"
+        android:layout_height="70dp"
+        android:layout_marginTop="280dp"
+        android:hint="E-mail"
+       android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColorHint="@color/black"
+        android:drawableRight="@drawable/ic_baseline_email_24"
+        android:inputType="textWebEmailAddress"
+        android:focusableInTouchMode="true"/>
+    <Button
+        android:id="@+id/newpass"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Reset Password"
+        android:textSize="18dp"
+        android:fontFamily="cursive"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/btnround"/>
+
+</RelativeLayout>
