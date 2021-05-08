@@ -33,14 +33,7 @@ private EditText username,emails,password,confermpassword;
         confermpassword = (EditText)findViewById(R.id.confpassword);
         Register = (Button)findViewById(R.id.res);
         login = (Button)findViewById(R.id.log);
-        search = (Button)findViewById(R.id.about);
-        search.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Register.this,Search.class);
-                startActivity(intent);
-            }
-        });
+
         Register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -74,7 +67,7 @@ private EditText username,emails,password,confermpassword;
                               @Override
                               public void onComplete(@NonNull Task<AuthResult> task) {
                                   if (task.isSuccessful()) {
-                                  Intent i = new Intent(Register.this,Menu.class);
+                                  Intent i = new Intent(Register.this,songandvideo.class);
                                   startActivity(i);
                                   Toast.makeText(Register.this,"Register SuccessFull",Toast.LENGTH_SHORT).show();
                                   } else {

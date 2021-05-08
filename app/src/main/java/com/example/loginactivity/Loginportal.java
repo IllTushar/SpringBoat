@@ -63,7 +63,7 @@ private EditText email,password;
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if (task.isSuccessful()) {
                                     Toast.makeText(Loginportal.this,"SignIn Successfull !!",Toast.LENGTH_SHORT).show();
-                                    Intent i = new Intent(Loginportal.this,Menu.class);
+                                    Intent i = new Intent(Loginportal.this,songandvideo.class);
                                     startActivity(i);
 
                                 } else {

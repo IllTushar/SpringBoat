@@ -6,16 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Register"
     android:orientation="vertical">
-        <Button
-            android:id="@+id/about"
-            android:layout_width="70dp"
-            android:layout_height="60dp"
-            android:text="!"
-            android:textSize="32dp"
-            android:layout_marginLeft="300dp"
-            android:textColor="@color/black"
-            android:background="@drawable/btnround"
-            android:textStyle="bold"/>
 
 
   <ImageView

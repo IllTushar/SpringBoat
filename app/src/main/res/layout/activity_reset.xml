@@ -9,7 +9,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="730dp"
-            android:background="@drawable/s1"/>
+            android:background="@drawable/l2"/>
         <ImageView
             android:layout_width="160dp"
             android:layout_height="160dp"
